@@ -27,9 +27,107 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
+
+
+
+/*Teste*/
+
+.cbp-af-header
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 100%;
+  z-index: 99999;
+  height: 100px;
+  overflow: hidden;
+  -webkit-transition: height 0.6s;
+  -moz-transition: height 0.6s;
+  transition: height 0.6s;
+}
+
+.cbp-af-header #logo img
+{
+  padding: 40px 20px 0px 0px;
+  max-width: 150px;
+}
+
+.cbp-af-header #nav a
+{
+  line-height: 60px;
+}
+
+/* Transitions */
+
+.cbp-af-header #logo,
+.cbp-af-header #nav a
+{
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+/* Button Share */
+
+.cbp-af-header .right
+{
+  border-radius: 20px;
+  color: #333;
+  margin-top: -100px;
+  padding: 3px 13px;
+  float: right;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Button Share:hover */
+
+.cbp-af-header .button:hover
+{
+  color: #FFF;
+  border: 3px solid #FFF;
+  background: none;
+}
+
+
+/* Navigation effect on scroll down */
+
+
+.cbp-af-header.cbp-af-header-shrink
+{
+  height: 80px;
+  float: right;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* The button comes to the right place */
+
+.cbp-af-header.cbp-af-header-shrink .right
+{
+  margin-top: 30px;
+  display: block;
+}
+
+/* The links goes up */
+
+.cbp-af-header.cbp-af-header-shrink #nav a
+{
+  margin-top: -150px;
+}
+	
+
 /****-----start-body----****/
 body{
-	background:url(https://preview.w3layouts.com/demos/flat_pricing_tables_design/web/images/bg.jpg)no-repeat 0px 0px;
+	background:url('../img/bg.jpg')no-repeat 0px 0px;
 	    font-family: 'Lato', sans-serif;
 	    background-size: cover;
 	    -o-background-size: cover;
