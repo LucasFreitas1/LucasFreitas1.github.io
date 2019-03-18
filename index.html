@@ -157,14 +157,10 @@
 
 				<div class="five columns picture make-it-appear-left">
 
-					<img src="img/1.png" alt="EXEMPLE">
+					<img src="img/1.jpg" alt="EXEMPLE">
 
 				</div>
-				<div class="go-down twelve columns">
 
-					<a href="#pagina3" class="goto"><img src="img/downblack.png" alt="MORE"></a>
-
-				</div>
 
 
 			</div> <!-- End row div -->
@@ -187,7 +183,7 @@
 
 				<div class="five columns picture make-it-appear-right">
 
-					<img src="img/2.png" alt="EXEMPLE">
+					<img src="img/3.jpg" alt="EXEMPLE">
 
 				</div>
 
@@ -200,7 +196,7 @@
 
 					<!-- Content -->
 
-					<p>Logos empresas e frases de impactos</p>
+					<p></p>
 
 
 					<p></p>
@@ -212,15 +208,6 @@
 
 
 			</div> <!-- End row div -->
-			<div class="twelve columns">
-				<a href="#pagina4" class="goto" style="
-				display: block;
-  margin-left: auto;
-  margin-right: auto;
-	"><img src="img/downblack.png" alt="MORE"></a>
-			</div>
-
-
 		</section>
 
 		<!-- END TIRTH SECTION ############################################### -->
@@ -265,38 +252,27 @@
 
 				<div class="seven columns picture make-it-appear-left">
 
-					<pre>
-		    	<!-- Article centered on the Page --> 
-		
-				<div class="twelve columns centered make-it-appear-top">
+	<pre>
 
-					<!-- Title --> 
-				
-					<h4>Sempre</h4>
-													
-					<!-- Content --> 
-				
-				
-					<div class="cost">
-						<p class="symbol">$</p>
-						<p class="value">0</p>
-					</div>
-					
-	
-				</div>
+			
+			/// An asynchronous function that completes very slowly.
+			
+			async fn slow_task() -> Result<&'static str> {
+
+					println!("START slow_task");
+
+					await!(delay(10_000)).context("delay failed")?;
+
+					println!("END slow_task");
+
+					Ok("slow_task result")
+			}
 </pre>
 
 				</div>
 
 			</div> <!-- End row div -->
-			<form action="https://formspree.io/formulario@flodsvin.com" method="POST">
-				<h2>E-mail</h2><input type="email" name="E-mail">
-				<h2>Nome</h2><input type="text" name="Nome">
-				<h2>Texto</h2><input type="text" name="Texto">
-				<input type="hidden" name="_subject" value="Novo contato pelo form" />
-				<input type="text" name="_gotcha" style="display:none" />
-				<input type="submit" value="Send">
-			</form>
+
 		</section>
 
 
@@ -338,9 +314,7 @@
 					<!-- Nav Footer -->
 
 					<ul>
-						<li><a href="http://www.iamsupview.be">About Supview</a> </li>
-						<li> <a href="http://www.baribal.be/showpage/dl/">Get it</a> </li>
-						<li> <a href="http://dribbble.com/Supview">Dribbble</a> </li>
+						<li><a href="http://www.iamsupview.be">Sobre Flodsvin</a> </li>
 						<li> <a href="http://www.facebook.com/Supview" rel="nofollow">Facebook</a> </li>
 						<li> <a href="http://twitter.com/Supview" rel="nofollow">Twitter</a> </li>
 						<li> <a href="http://www.behance.net/Supview" rel="nofollow">Behance</a> </li>
@@ -348,15 +322,12 @@
 
 					<!-- Title -->
 
-					<p class="copyright">Showpage is a free app landing page made by <a
-							href="http://www.iamsupview.be">Supview</a> and is under <a
-							href="http://creativecommons.org/licenses/by/4.0/">CC License</a> <br>© Copyright 2014
-						Supview. All rights reserved.</p>
+					<p class="copyright">Flodsvin Tecnologia 2019</p>
 
 					<!-- Logo -->
 
 
-					<img class="logo" src="img/logo.png" alt="Logo">
+					<img class="logo" src="img/logo_somente.png" alt="Logo">
 
 				</div>
 
