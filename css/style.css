@@ -79,7 +79,14 @@ body, html
   transition: opacity 400ms;
 }
 
+/* Meu Css*/
+.imagemcorpo {
+width: 50%;
+display: inline-block;
+vertical-align: middle;
+}
 
+/*Fim meu css*/
 /* Selected text Color */
 
 ::-moz-selection
